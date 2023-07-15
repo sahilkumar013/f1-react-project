@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +22,159 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heart {
+  color: #ff0000;
+}
+
+.small {
+  font-size: 0.75rem;
+}
+.container{
+  display: flex;
+  height: 100vh;
+  background-color: 
+  #B1D9DB;
+  /* #03 */
+
+/* position: absolute;
+left: 1.61%;
+right: 58.37%;
+top: 31.52%;
+bottom: -3.23%;
+
+transform: rotate(-7.15deg); */
+
+
+/* Abstraction */
+
+
+
+  
+  
+  /* border: 1px solid black; */
+
+}
+
+.tilt{
+  position: absolute;
+  left: 1.61%;
+  right: 58.37%;
+  top: 31.52%;
+  /* bottom: -3.23%; */
+  width: 425px;
+  margin-left: 220px;
+  /* margin-bottom: 500px; */
+
+  /* background: url(); */
+  transform: rotate(-7.15deg);
+}
+.left{
+  /* border: 1px solid blue; */
+  width: 40%;
+  
+  
+
+}
+.right{
+  /* border: 50px solid red; */
+  width: 60%;
+  
+  background-color: white;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+
+  /* align-items: center; */
+  /* transform: translate(-50%, -50%); */
+  
+}
+.signup{
+  
+  align-items: center;
+  /* border: 1px solid green; */
+
+  max-width: 70%;
+  margin-top: 29vh;
+  /* justify-content: space-around; */
+  
+}
+.signup .ca{
+  text-align: left;
+  padding-left: 10px;
+}
+
+.input{
+  display: block;
+  width: 39vw;
+  margin-top: 30px;
+  height: 4vh;
+  border-style: hidden;
+  border-bottom: 1px solid rgb(152, 146, 146);
+  outline: none;
+  
+
+}
+
+.social{
+  display: flex;
+}
+.social div{
+  width: 45%;
+  border: 1px solid black;
+  margin: 10px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: left;
+  align-content: center;
+  /* white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap; */
+        word-wrap: break-word;
+        /* color: lightgreen; */
+        cursor: pointer;
+}
+.error{
+  color: red;
+}
+.success{
+  color: green;
+}
+.social img{
+  width: 30px;
+  height: 30px;
+  /* padding-right:10px ;
+  padding-left: 3px; */
+  
+}
+.btn{
+  display: block;
+  margin-top: 20px;
+  height: 50px;
+  width: 39.5vw;
+  border-radius: 8px;
+  border-style: hidden;
+  background-color: #B1D9DB;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+  
+  
+}
+.form{
+  display: block;
+  text-align: center;
+  padding-left:10px ;
+  
+}
+.google{
+  display: flex;
+  padding: 0px;
+
+}
+.signin{
+  padding-left: 45px;
+  padding-top: 3px;
+}
+img{
+  padding-left: 5px;
 }
